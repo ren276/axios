@@ -1,0 +1,2 @@
+-keep,allowobfuscation,allowshrinking class dev.sandesh.kharcha.feature.budget.BudgetListViewModel
+-keep,allowobfuscation,allowshrinking class dev.sandesh.kharcha.feature.budget.BudgetListViewModel

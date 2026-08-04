@@ -1,0 +1,64 @@
+[
+  {
+    "id": "sbi_debit_pos_001",
+    "sender": "SBIINB",
+    "body": "Your A/c No.XX1234 is debited with INR 500.00 on 01-Jan-25. Avail bal: INR 14,734.56. If not done by you, call 1800-111-111.",
+    "expected_amount": 500.00,
+    "expected_type": "DEBIT",
+    "expected_account_last4": "1234",
+    "expected_min_confidence": 0.85
+  },
+  {
+    "id": "sbi_debit_upi_001",
+    "sender": "SBIUPI",
+    "body": "Rs.250.00 debited from SBI A/c XX5678 to SWIGGY via UPI Ref 412345678901 on 31-01-2025. Avail bal: Rs.5,200.50.",
+    "expected_amount": 250.00,
+    "expected_type": "DEBIT",
+    "expected_account_last4": "5678",
+    "expected_merchant_contains": "SWIGGY",
+    "expected_min_confidence": 0.85
+  },
+  {
+    "id": "sbi_credit_upi_001",
+    "sender": "SBIINB",
+    "body": "Rs.1000.00 credited to SBI A/c XX1234 from RAHUL SHARMA via UPI Ref 519876543210 on 01-01-2025. Avail bal: Rs.15,734.56.",
+    "expected_amount": 1000.00,
+    "expected_type": "CREDIT",
+    "expected_account_last4": "1234",
+    "expected_min_confidence": 0.85
+  },
+  {
+    "id": "sbi_debit_purchase_001",
+    "sender": "SBICRD",
+    "body": "Your SBI A/c XX9012 is debited by Rs.2,500.00 for purchase at AMAZON on 15-Jan-2025. Bal: Rs.22,100.00.",
+    "expected_amount": 2500.00,
+    "expected_type": "DEBIT",
+    "expected_account_last4": "9012",
+    "expected_min_confidence": 0.85
+  },
+  {
+    "id": "sbi_debit_large_amount_001",
+    "sender": "SBIINB",
+    "body": "Your A/c No.XX3456 is debited with INR 45,000.00 on 05-Jan-25 towards Home Loan EMI. Avail bal: INR 1,23,456.78.",
+    "expected_amount": 45000.00,
+    "expected_type": "DEBIT",
+    "expected_account_last4": "3456",
+    "expected_min_confidence": 0.85
+  },
+  {
+    "id": "sbi_otp_skip_001",
+    "sender": "SBIINB",
+    "body": "123456 is your OTP for SBI Net Banking. Valid for 10 minutes. Do not share with anyone.",
+    "expected_confidence": 0.0,
+    "expected_transaction": null
+  },
+  {
+    "id": "sbi_credit_salary_001",
+    "sender": "SBIINB",
+    "body": "INR 75,000.00 credited to your SBI A/c XX7890 on 01-Feb-2025. Your available balance is INR 89,450.00.",
+    "expected_amount": 75000.00,
+    "expected_type": "CREDIT",
+    "expected_account_last4": "7890",
+    "expected_min_confidence": 0.80
+  }
+]

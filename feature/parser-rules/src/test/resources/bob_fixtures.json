@@ -1,0 +1,29 @@
+[
+  {
+    "id": "bob_debit_001",
+    "sender": "BOBIBD",
+    "body": "Dear Customer, Rs.750.00 has been debited from your A/c XXXXXXXX1234 on 01-01-2025 for UPI payment to PHONEPE. Avail Bal: Rs.8,250.00.",
+    "expected_amount": 750.00,
+    "expected_type": "DEBIT",
+    "expected_account_last4": "1234",
+    "expected_min_confidence": 0.85
+  },
+  {
+    "id": "bob_credit_001",
+    "sender": "BOBIBD",
+    "body": "INR 5,000.00 credited to your account ending 5678 on 15/01/2025. Your available balance is INR 12,500.00.",
+    "expected_amount": 5000.00,
+    "expected_type": "CREDIT",
+    "expected_account_last4": "5678",
+    "expected_min_confidence": 0.85
+  },
+  {
+    "id": "bob_debit_upi_001",
+    "sender": "BOBSMS",
+    "body": "Your BOB account XX9012 is debited by Rs.300 for UPI payment to AMAZON on 20-Jan-2025. Available balance Rs.4,200.",
+    "expected_amount": 300.00,
+    "expected_type": "DEBIT",
+    "expected_account_last4": "9012",
+    "expected_min_confidence": 0.85
+  }
+]

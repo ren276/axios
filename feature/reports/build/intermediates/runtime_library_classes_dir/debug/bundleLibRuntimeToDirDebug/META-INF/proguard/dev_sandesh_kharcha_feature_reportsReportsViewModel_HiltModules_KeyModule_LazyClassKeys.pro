@@ -1,0 +1,2 @@
+-keep,allowobfuscation,allowshrinking class dev.sandesh.kharcha.feature.reports.ReportsViewModel
+-keep,allowobfuscation,allowshrinking class dev.sandesh.kharcha.feature.reports.ReportsViewModel

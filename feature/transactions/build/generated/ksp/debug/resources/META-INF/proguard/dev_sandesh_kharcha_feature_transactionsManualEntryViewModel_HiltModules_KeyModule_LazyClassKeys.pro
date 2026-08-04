@@ -1,0 +1,2 @@
+-keep,allowobfuscation,allowshrinking class dev.sandesh.kharcha.feature.transactions.ManualEntryViewModel
+-keep,allowobfuscation,allowshrinking class dev.sandesh.kharcha.feature.transactions.ManualEntryViewModel

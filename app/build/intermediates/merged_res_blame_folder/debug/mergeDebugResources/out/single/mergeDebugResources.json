@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "dev.sandesh.kharcha.app-debug-82:/drawable_ic_launcher_background.xml.flat",
+        "source": "dev.sandesh.kharcha.app-main-84:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "dev.sandesh.kharcha.app-debug-82:/xml_kharcha_widget_info.xml.flat",
+        "source": "dev.sandesh.kharcha.app-main-84:/xml/kharcha_widget_info.xml"
+    },
+    {
+        "merged": "dev.sandesh.kharcha.app-debug-82:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "dev.sandesh.kharcha.app-main-84:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "dev.sandesh.kharcha.app-debug-82:/xml_data_extraction_rules.xml.flat",
+        "source": "dev.sandesh.kharcha.app-main-84:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "dev.sandesh.kharcha.app-debug-82:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "dev.sandesh.kharcha.app-main-84:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "dev.sandesh.kharcha.app-debug-82:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "dev.sandesh.kharcha.app-main-84:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "dev.sandesh.kharcha.app-debug-82:/xml_backup_rules.xml.flat",
+        "source": "dev.sandesh.kharcha.app-main-84:/xml/backup_rules.xml"
+    }
+]

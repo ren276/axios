@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kharcha</string>
+    <string name="notification_listener_label">Kharcha Notification Service</string>
+    <style name="Theme.Kharcha" parent="android:Theme.Material.Light.NoActionBar"/>
+</resources>

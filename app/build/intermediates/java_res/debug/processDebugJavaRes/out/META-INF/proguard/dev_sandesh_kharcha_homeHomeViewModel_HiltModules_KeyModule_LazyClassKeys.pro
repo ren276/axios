@@ -1,0 +1,2 @@
+-keep,allowobfuscation,allowshrinking class dev.sandesh.kharcha.home.HomeViewModel
+-keep,allowobfuscation,allowshrinking class dev.sandesh.kharcha.home.HomeViewModel

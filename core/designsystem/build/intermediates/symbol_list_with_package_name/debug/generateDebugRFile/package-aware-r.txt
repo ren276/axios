@@ -1,0 +1,2 @@
+dev.sandesh.kharcha.core.designsystem
+drawable logo

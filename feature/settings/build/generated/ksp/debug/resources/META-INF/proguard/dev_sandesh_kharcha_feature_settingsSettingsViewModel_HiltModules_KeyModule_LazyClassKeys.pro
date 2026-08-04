@@ -1,0 +1,2 @@
+-keep,allowobfuscation,allowshrinking class dev.sandesh.kharcha.feature.settings.SettingsViewModel
+-keep,allowobfuscation,allowshrinking class dev.sandesh.kharcha.feature.settings.SettingsViewModel

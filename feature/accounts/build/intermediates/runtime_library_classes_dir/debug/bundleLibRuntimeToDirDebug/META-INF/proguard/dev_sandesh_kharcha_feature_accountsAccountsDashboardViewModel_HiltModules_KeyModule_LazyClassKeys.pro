@@ -1,0 +1,2 @@
+-keep,allowobfuscation,allowshrinking class dev.sandesh.kharcha.feature.accounts.AccountsDashboardViewModel
+-keep,allowobfuscation,allowshrinking class dev.sandesh.kharcha.feature.accounts.AccountsDashboardViewModel

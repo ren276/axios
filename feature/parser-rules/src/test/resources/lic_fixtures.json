@@ -1,0 +1,40 @@
+[
+  {
+    "id": "lic_reminder_policy_001",
+    "sender": "LICIND",
+    "body": "Dear Policyholder, your policy No. 123456789 premium of Rs.5,000 is due on 15-02-2025. Please pay before due date to avoid lapse. -LIC of India",
+    "expected_amount": 5000.00,
+    "expected_type": "DEBIT",
+    "expected_policy_number": "123456789",
+    "expected_max_confidence": 0.65,
+    "expected_status": "NEEDS_REVIEW"
+  },
+  {
+    "id": "lic_reminder_submit_001",
+    "sender": "LICIND",
+    "body": "Dear Customer, Please submit your age proof and address proof for policy No. 987654321 at your nearest LIC branch before 28-Feb-2025. -LIC",
+    "expected_policy_number": "987654321",
+    "expected_amount": null,
+    "expected_max_confidence": 0.65,
+    "expected_status": "NEEDS_REVIEW"
+  },
+  {
+    "id": "lic_payment_received_001",
+    "sender": "LICIND",
+    "body": "Payment received. Rs.12,000 towards policy No. 112233445. Thank you for paying your premium. Policy is active. -LIC of India",
+    "expected_amount": 12000.00,
+    "expected_type": "DEBIT",
+    "expected_policy_number": "112233445",
+    "expected_max_confidence": 0.65,
+    "expected_status": "NEEDS_REVIEW"
+  },
+  {
+    "id": "lic_renewal_notice_001",
+    "sender": "LICINDIA",
+    "body": "Renewal notice for policy No. 554433221. Your next instalment of Rs.2,500 is due on 10-03-2025. Pay online at licindia.in -LIC",
+    "expected_amount": 2500.00,
+    "expected_policy_number": "554433221",
+    "expected_max_confidence": 0.65,
+    "expected_status": "NEEDS_REVIEW"
+  }
+]

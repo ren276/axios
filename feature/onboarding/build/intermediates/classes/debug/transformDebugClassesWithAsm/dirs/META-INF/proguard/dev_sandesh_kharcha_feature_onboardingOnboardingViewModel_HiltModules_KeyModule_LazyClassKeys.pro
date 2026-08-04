@@ -1,0 +1,2 @@
+-keep,allowobfuscation,allowshrinking class dev.sandesh.kharcha.feature.onboarding.OnboardingViewModel
+-keep,allowobfuscation,allowshrinking class dev.sandesh.kharcha.feature.onboarding.OnboardingViewModel

@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\axios\core\database\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest13805075145672426057.xml:2:13-83
+INJECTED from E:\axios\core\database\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest13805075145672426057.xml:2:13-83
+	package
+		INJECTED from E:\axios\core\database\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest13805075145672426057.xml
+	xmlns:android
+		ADDED from E:\axios\core\database\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest13805075145672426057.xml:2:23-81
+uses-sdk
+INJECTED from E:\axios\core\database\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest13805075145672426057.xml reason: use-sdk injection requested
+INJECTED from E:\axios\core\database\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest13805075145672426057.xml
+INJECTED from E:\axios\core\database\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest13805075145672426057.xml
+	android:targetSdkVersion
+		INJECTED from E:\axios\core\database\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest13805075145672426057.xml
+	android:minSdkVersion
+		INJECTED from E:\axios\core\database\build\intermediates\tmp\ProcessLibraryManifest\debug\tempAndroidManifest13805075145672426057.xml

@@ -1,0 +1,12 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string notification_listener_label
+style Theme.Kharcha
+xml backup_rules
+xml data_extraction_rules
+xml kharcha_widget_info
